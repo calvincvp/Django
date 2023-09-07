@@ -1,0 +1,210 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets</title>
+    <link href="{% static 'css/style4.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/ani.js' %}"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="{% static 'pexels-zch-12722063-3840x2160-24fps.mp4' %}">
+        </video>
+        <nav>
+            <ul class="tab-menu">
+                <li class="tab-btn"> SUN </li>
+                <li> <a href="#uiu" class="tab-btn"> Mercury </a></li>
+                <li class="tab-btn"> Venus </li>
+                <li class="tab-btn"> Earth </li>
+                <li class="tab-btn"> Mars </li>
+                <li class="tab-btn"> Jupiter </li>
+                <li class="tab-btn"> Saturn </li>
+                <li class="tab-btn"> Uranus </li>
+                <li class="tab-btn"> Neptune </li>
+                <li class="tab-btn"> Pluto </li> 
+            </ul>
+        </nav>
+    </div>
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'sun.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> SUN </h2>
+                <div class="description">
+                    <p>The sun is the star at the center of the solar system, around which all the planets orbit. It is a self-luminous ball of hot gas, primarily composed of hydrogen and helium, that generates its energy through nuclear fusion reactions. The sun's energy is vital for sustaining life on Earth, and it also plays a significant role in driving the planet's climate and weather patterns. Despite its importance, it is crucial to protect oneself from the sun's harmful rays.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Sun is not a Planet
+        </div>
+    </div>
+    
+
+    <div id= "uiu" class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'mercurypla.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> MERCURY </h2>
+                <div class="description">
+                    <p>Mercury is the smallest planet in our solar system and the closest one to the Sun. It is named after the Roman messenger god, Mercury, due to its swift orbit around the Sun. Its surface is heavily cratered and covered in a layer of fine dust and rocky material, and it has a very thin atmosphere consisting mostly of helium and hydrogen. Mercury's proximity to the Sun means that it experiences extreme temperatures, with its daytime surface reaching up to 800 degrees Fahrenheit (427 degrees Celsius) and its nighttime surface dropping to -290 degrees Fahrenheit (-180 degrees Celsius). Despite being the closest planet to the Sun, Mercury is not the hottest planet in the solar system as Venus has a thicker atmosphere, trapping more heat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'venus.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> VENUS </h2>
+                <div class="description">
+                    <p>Venus is the second planet from the Sun and is similar in size and composition to Earth. It is named after the Roman goddess of love and beauty due to its brightness and beauty in the sky. Venus has a thick, toxic atmosphere composed mainly of carbon dioxide, with surface temperatures reaching up to 864 degrees Fahrenheit (462 degrees Celsius), making it the hottest planet in the solar system. Its atmosphere creates a strong greenhouse effect, trapping heat and making Venus' surface hot enough to melt lead. Venus also has a dense layer of clouds that are highly reflective, making it the brightest object in the sky after the Sun and the Moon. Despite its similarities to Earth in terms of size and composition, Venus' harsh environment makes it inhospitable to life as we know it.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'earthpl.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> EARTH </h2>
+                <div class="description">
+                    <p>Earth is the third planet from the sun and the only known planet in the universe that supports life. It has a diameter of approximately 12,742 kilometers and a mass of 5.97 x 10^24 kilograms. Its atmosphere is composed mostly of nitrogen, oxygen, and trace amounts of other gases. The planet has a magnetic field that protects its surface from harmful solar and cosmic radiation. Earth is home to a wide variety of living organisms, including humans, and has a diverse range of ecosystems from deserts to rainforests. However, human activities such as pollution and deforestation have had a negative impact on the planet's environment and biodiversity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'mars.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> MARS </h2>
+                <div class="description">
+                    <p>Mars is the fourth planet from the sun and is often referred to as the "Red Planet" due to its reddish appearance. It has a diameter of approximately 6,779 kilometers, which is roughly half the size of Earth, and a mass of 6.39 x 10^23 kilograms. Mars has a thin atmosphere composed mainly of carbon dioxide and has a surface marked by craters, valleys, and volcanoes. It also has the largest volcano in the solar system, Olympus Mons, and the longest canyon in the solar system, Valles Marineris. Scientists believe that Mars may have had liquid water on its surface in the past and may still have underground reservoirs of water today. In recent years, Mars has become a focus of exploration by space agencies and private companies due to the potential for discovering evidence of past or present life on the planet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'jupiter.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> JUPITER </h2>
+                <div class="description">
+                    <p>Jupiter is the fifth planet from the sun and is the largest planet in our solar system. It has a diameter of approximately 139,822 kilometers, which is more than 11 times the diameter of Earth, and a mass of 1.898 x 10^27 kilograms, which is two and a half times the mass of all the other planets in the solar system combined. Jupiter is composed mostly of hydrogen and helium gas, and has a strong magnetic field that is about 20,000 times stronger than Earth's. The planet is known for its distinctive banded appearance caused by its swirling atmosphere of colorful clouds, and it has a large, iconic "Great Red Spot" storm that has been raging for at least 350 years. Jupiter has numerous moons, the largest of which is Ganymede, which is larger than the planet Mercury. Scientists continue to study Jupiter to learn more about its composition, weather patterns, and the dynamics of its magnetic field.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'saturn.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> SATURN </h2>
+                <div class="description">
+                    <p>
+
+                        Saturn is the sixth planet from the Sun and the second-largest in the solar system, after Jupiter. It is easily recognizable due to its prominent system of rings, made up of ice and rock particles that orbit around the planet. Saturn is a gas giant, meaning it has no solid surface and is primarily composed of hydrogen and helium. The planet has numerous moons, with the largest being Titan, which is larger than the planet Mercury. Saturn is visible to the naked eye and has been observed and studied for centuries by astronomers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'uranus.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> SATURN </h2>
+                <div class="description">
+                    <p>Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab">
+            <div class="img-card">
+                <img src="{% static 'neptune.jpg' %}" alt="space">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="info">
+                <h2 class="sun"> SATURN </h2>
+                <div class="description">
+                    <p>Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.</p>
+                </div>
+            </div>
+        </div>
+        <div class="planet">
+            Planet
+        </div>
+    </div>
+</body>
+</html>

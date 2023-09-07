@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/style1.css' %}" rel="stylesheet">
+    <link href="{% static 'css/all.css' %}" rel="stylesheet">
+    <link href="{% static 'css/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/owl.theme.default.min.css' %}" rel="stylesheet">
+    <title>Landing</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <img src="{% static 'image/logo.png' %}" class="logo"> 
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/planets">Planet</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/event">Event</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="site-title">
+            <div class="site-background">
+                <h3>Space & Universe</h3>
+                <h1>Exploring the World of Space Technology</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="mainword"> A space telescope is a scientific instrument that observes the universe from outside Earth's atmosphere.</div>
+            <div class="container2">
+                <div class="card">
+                    <img src="../static/image/xray.png">
+                    <div class="name">Gamma-Ray</div>
+                    <div class="name">	Gamma-Ray Burst Polarimeter (GAP)</div>
+                </div>
+                <div class="card">
+                  <a href="/xraycarousels"><img src="https://scitechdaily.com/images/IXPE-in-Earth-Orbit-scaled.jpg"></a>
+                  <div class="name">X-ray</div>
+                  <div class="name">Imaging X-ray Polarimetry Explorer (IXPE)</div>
+                </div>
+                <div class="card">
+                  <img src="../static/image/Astrosat1.png">
+                  <div class="name">Ultraviolet</div>
+                  <div class="name">Astrosat</div>
+                </div>
+                <div class="card">
+                  <a href="/hubble"><img src="https://imageio.forbes.com/specials-images/imageserve/62750318e66defb8b43ddefe/Can-NASA-and-SpaceX-help-give-the-Hubble-Space-Telescope-a-new-lease-of-life-/0x0.jpg?format=jpg&crop=2941,1379,x0,y0,safe&width=960"></a>
+                  <div class="name">Visible light</div>
+                  <div class="name">Hubble Space Telescope</div>
+                </div>
+                <div class="card">
+                  <a href="/james"><img src="https://images.hindustantimes.com/tech/img/2022/08/29/960x540/NASA-Space-Telescope-0_1657885142224_1657885142224_1661782023638_1661782023638.jpg"></a>
+                  <div class="name">Infrared and submillimetre</div>
+                  <div class="name">James Webb Space Telescope (JWST)</div>
+                </div>
+              </div>
+        </section>
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts"> 
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div class="words">NEWS</div>
+                            <div>
+                                <img src="../static/image/hubble.jpg" class="img" alt="hubbledes">
+                            </div>
+                            <div class="post-info">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Apr 14, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Hubble Spots a Galaxy with Tendrils</a>
+                            <p>This image taken with the NASA/ESA Hubble Space Telescope shows JO204, a ‘jellyfish galaxy’ 
+                                so named for the bright tendrils of gas that appear in this image as drifting lazily below JO204’s bright central bulk. 
+                                The galaxy lies almost 600 million light-years away in the constellation Sextans. Hubble observed JO204 as part of a survey performed with the intention of better understanding star formation under extreme conditions.</p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arror-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="../static/image/mars.jpg" class="img" alt="hubbledes">
+                            </div>
+                            <div class="post-info">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;&nbsp;Apr 15, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">NASA to Participate in Space Symposium, Discuss Moon to Mars</a>
+                            <p>NASA leadership and other experts will participate in the Space Foundation’s 38th Annual Space Symposium in Colorado Springs, Colorado, and the agency will air two NASA events.
+
+                                During her keynote, “Our Next Steps to the Moon and Beyond,” NASA Deputy Administrator Pam Melroy will discuss progress toward a blueprint for sustained human exploration throughout the solar system at 11:15 a.m. EDT, on Tuesday, April 18.
+                                During Tuesday’s event, the Melroy keynote will air on the main NASA TV channel, and a scheduled downlink with crew from the space station will air on the agency’s media channel. Both events will stream live online at
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arror-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="../static/image/spacewalk.jpg" class="img" alt="hubbledes">
+                            </div>
+                            <div class="post-info">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;&nbsp;Apr 14, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#"> NASA Plans Coverage of Roscosmos Spacewalks at Space Station.</a>
+                            <p>During the spacewalks, Expedition 69 cosmonauts Sergey Prokopyev and Dmitri Petelin will venture outside the Poisk airlock Tuesday, April 18, Tuesday, April 25, and Thursday, May 4, to conduct the transfer and installation of a heat-rejecting radiator and an experiment airlock to Nauka. The airlock and the radiator attached to Rassvet were launched on the space shuttle Atlantis STS-132 mission in May 2010. The radiator and the airlock will be robotically transferred by ESA’s (European Space Agency) robotic arm on Nauka with those movements operated by cosmonaut Andrey Fedyaev inside the orbital complex.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arror-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="../static/image/moon erup.jpg" class="img" alt="hubbledes">
+                            </div>
+                            <div class="post-info">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;&nbsp;Apr 14, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#"> Icy Moonquakes: Surface Shaking Could Trigger Landslides</a>
+                            <p>Many of the ice-encrusted moons orbiting the giant planets in the far reaches of our solar system are known to be geologically active. Jupiter and Saturn have such strong gravity that they stretch and pull the bodies orbiting them, causing moonquakes that can crack the moons’ crusts and surfaces. New research shows for the first time how these quakes may trigger landslides that lead to remarkably smooth terrain.
+
+                                The study, published in Icarus, outlines the link between quakes and landslides, shedding new light on how icy moon surfaces and textures evolve.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arror-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content">
+                        <div class="post-image">
+                            <div>
+                                <img src="../static/image/heli.jpg" class="img" alt="hubbledes">
+                            </div>
+                            <div class="post-info">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;&nbsp;Apr 14, 2023</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#"> NASA’s Ingenuity Mars Helicopter Completes 50th Flight</a>
+                            <p>NASA’s Ingenuity Mars Helicopter has completed its 50th flight on Mars. The first aircraft on another world reached the half-century mark on April 13, traveling over 1,057.09 feet (322.2 meters) in 145.7 seconds. The helicopter also achieved a new altitude record of 59 feet (18 meters) before alighting near the half-mile-wide (800-meter-wide) “Belva Crater.”
+
+                                With Flight 50 in the mission logbook, the helicopter team plans to perform another repositioning flight before exploring the “Fall River Pass” region of Jezero Crater.  
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arror-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Satellite</h2>
+                        <ul class="category-list">
+                            <li class="list-items">
+                                <a>United States</a>
+                                <span>(2,804)</span>
+                            </li>
+                            <li class="list-items">
+                                <a>China</a>
+                                <span>(467)</span>
+                            </li>
+                            <li class="list-items">
+                                <a>United Kingdom</a>
+                                <span>(349)</span>
+                            </li>
+                            <li class="list-items">
+                                <a>Russia</a>
+                                <span>(168)</span>
+                            </li>
+                            <li class="list-items">
+                                <a>Japan</a>
+                                <span>(93)</span>
+                            </li>
+                            <li class="list-items">
+                                <a>India</a>
+                                <span>(61)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Fact about solar system</h2>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/solar.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The Solar System is roughly 4.5 billion years old</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/sat.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Saturn's rings are 90% water</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/jup.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Jupiter’s largest moon has a salty ocean that contains more water than on Earth</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/ven.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">A day is longer than a year on Venus</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/dwarf.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Pluto isn’t the only dwarf planet in our Solar System - we have six</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/end.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The Solar System might not end with Pluto</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/moon.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">The moon is drifting away from Earth</a>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-image">
+                                <div>
+                                    <img src="../static/image/floatwater.jpg" class="img" alt="hubbledes">
+                                </div>
+                                <div class="post-info">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;NASA</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#"> There is Floating water in Space</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <h2>Comment Your Thought</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Comments">
+                            <button class="btn1 form-btn">Submit</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag">aerospace</span>
+                            <span class="tag">astronomy</span>
+                            <span class="tag">stars</span>
+                            <span class="tag">nasa</span>
+                            <span class="tag">galaxy</span>
+                            <span class="tag">universe</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="../static/js/jquery3.6.4.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
